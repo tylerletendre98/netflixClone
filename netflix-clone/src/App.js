@@ -1,9 +1,11 @@
 import './App.css';
+import Row from './Row';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <Row title="Netflix Originals"/>
+      <Row title ="Trending now"/>
     </div>
   );
 }
